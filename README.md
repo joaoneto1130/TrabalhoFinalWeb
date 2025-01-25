@@ -1,4 +1,5 @@
-# :checkered_flag: NOME DO PROJETO
+# :checkered_flag: Sistema de Gestão de Feiras Locais
+
 
 O Sistema de Gestão de Feiras Locais é uma plataforma projetada para auxiliar na organização de feiras locais. 
 Ele permite o cadastro de expositores, exibição de calendários de feiras e divulgação de eventos, visando melhorar a eficiência e a gestão desses eventos.
