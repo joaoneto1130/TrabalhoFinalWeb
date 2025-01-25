@@ -1,34 +1,64 @@
 # :checkered_flag: NOME DO PROJETO
 
-Breve descrição do que o seu projeto faz.
+O Sistema de Gestão de Feiras Locais é uma plataforma projetada para auxiliar na organização de feiras locais. 
+Ele permite o cadastro de expositores, exibição de calendários de feiras e divulgação de eventos, visando melhorar a eficiência e a gestão desses eventos.
 
 ## :technologist: Membros da equipe
 
-Matrícula, nome e curso dos participantes.
+5105220 - Jopão Ferreira Lima Neto - Redes de Computadores
 
 ## :bulb: Objetivo Geral
-Descrever o objetivo de geral do projeto
+Desenvolver um sistema para organizar feiras locais, permitindo o cadastro de expositores e a divulgação de eventos.
 
 ## :eyes: Público-Alvo
-Público-alvo do projeto
+Organizadores de feiras e expositores.
+
 
 ## :star2: Impacto Esperado
-Descreva o impacto esperado do projeto em relação ao público alvo
-
+O impacto desse sistema na sociedade é significativo. Ao facilitar a organização de feiras, ele promove o empreendedorismo local e fortalece a economia regional. 
+Pequenos produtores e artesãos ganham uma vitrine para seus produtos, aumentando suas oportunidades de negócio. 
+Além disso, a comunidade se beneficia com eventos mais organizados e acessíveis, gerando um ambiente favorável para a troca de conhecimentos e experiências, 
+e fomentando o desenvolvimento econômico sustentável da região.
 ## :people_holding_hands: Papéis ou tipos de usuário da aplicação
 
-Informe aqui os tipos de usuário que irão interagir com a aplicação. Ex: administrador, locador, locatario, usuário não logado.
-
+Expositores de Startups, Organizadores de feiras e eventos e Pessoas interessadas em assistir as exposições 
 > Tenha em mente que obrigatoriamente a aplicação deve possuir funcionalidades acessíveis a todos os tipos de usuário e outra funcionalidades restritas a certos tipos de usuários.
 
 ## :triangular_flag_on_post:	 Principais funcionalidades da aplicação
+Cadastro de Eventos:
+Registro de informações Espaço, Horarios e Vagas.
+(Apenas com Cadastro e apenas para a entidade Administrador)
 
-Descreve ou liste brevemente as principais funcionalidades da aplicação que será desenvolvida. Destaque a funcionalidades que serão acessévies a todos os usuários e aquelas restriras a usuários logados.
+Cadastro de Expositores:
+Registro de informações como produtos e espaço reservado.
+(Apenas com Cadastro e apenas para a entidade expositor)
+
+Cadastro de Interessado:
+Registro de informações como Nome, CPF e Instituição.
+(Cadastro Livre)
+
+Calendário de Feiras:
+Exibição das próximas datas e locais.
+(Visivel sem cadastro).
+
+Página de Divulgação:
+Detalhes sobre os eventos.
+(Visivel sem cadastro).
 
 ## :spiral_calendar: Entidades ou tabelas do sistema
 
-Liste as principais entidades do sistema.
+Entidade Administrador:
+A entidade que pode registrar Eventos.
+Apenas uma entidade deste tipo.
 
+Entidade Evento: 
+Contém: número de participantes, data, Horario e Nome;
+
+Entidade Expositor:
+Contém: Nome, Instituição, CPF, Projeto e permissão para se cadastrar em eventos
+
+Entidade Interessado:
+Contém: Nome, CPF e Instituição
 
 ----
 
