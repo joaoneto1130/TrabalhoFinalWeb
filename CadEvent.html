@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CadastrarEvento</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="Assets/img/undraw_events_0w4f.svg">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Registrar Evento</h1>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="eventname">Nome do Evento</label> 
+                        <input id="eventname" type="text" name ="eventname" placeholder="Digite o Nome do Evento" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="eventtype">Tipo de Evento</label> 
+                        <input id="eventtype" type="text" name ="eventtype" placeholder="Digite o Tipo do Evento" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="eventdate">Data do Evento</label> 
+                        <input id="eventdate" type="text" name ="eventdate" placeholder="Digite a Data do Evento" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="eventvagas">Quantidade de Vagas do Evento</label> 
+                        <input id="eventvagas" type="text" name ="eventvagas" placeholder="Digite o Número de Vagas do Evento" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="eventdateini">Data de Inicio do Evento</label> 
+                        <input id="eventdateini" type="datetime-local" name ="eventdateini" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="eventdatefim">Data de Termino do Evento</label> 
+                        <input id="eventdatefim" type="datetime-local" name ="eventdatefim" required>
+                    </div>
+                </div>
+                <div class="event-types">
+                    <div class="event-title">
+                        <h6>Tipo de Empreendedorismo</h6>
+                    </div>
+                    <div class="event-group">
+                        <div class="event-input">
+                            <input type="radio" id="innovative" name="event">
+                            <label for="innovative">Inovador</label>
+                        </div>
+                        <div class="event-input">
+                            <input type="radio" id="social" name="event">
+                            <label for="social">Social</label>
+                        </div>
+                        <div class="event-input">
+                            <input type="radio" id="sustainable" name="event">
+                            <label for="sustainable">Sustentável</label>
+                        </div>
+                        <div class="event-input">
+                            <input type="radio" id="digital" name="event">
+                            <label for="digital">Digital</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="continue-button">
+                    <button><a href="#">Continuar</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
